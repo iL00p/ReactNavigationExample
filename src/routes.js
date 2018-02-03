@@ -20,7 +20,7 @@ const TabPage = TabNavigator({
   Tab3 : {screen : Tab3}
 })
 
-const HomeTab = DrawerNavigator({
+const HomePage = DrawerNavigator({
   TabPage : {screen:TabPage},
   Page2 : {screen : Page2},
   Page3 : {screen: Page3}
@@ -30,7 +30,7 @@ const HomeTab = DrawerNavigator({
 
 const Routes = StackNavigator({
   Login : {screen : LoginStack},
-  Home : {screen : HomeTab}
+  Home : {screen : HomePage}
 },{
   headerMode : 'none',
 });
