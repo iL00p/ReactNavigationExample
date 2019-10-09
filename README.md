@@ -20,3 +20,4 @@ To take build
 react-native run-<platform>
 react-native start
 ```
+For Hacktoberfest 2019.
